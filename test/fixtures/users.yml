@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  office_id: 1
+  user_id: MyString
+  name: MyString
+  admin_flag: 1
+  password: MyString
+
+two:
+  office_id: 1
+  user_id: MyString
+  name: MyString
+  admin_flag: 1
+  password: MyString
