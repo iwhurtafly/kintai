@@ -11,10 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150307055924) do
+ActiveRecord::Schema.define(version: 20150307100633) do
 
   create_table "offices", force: :cascade do |t|
-    t.integer  "office_id"
+    t.integer  "office_id",  null: false
     t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
